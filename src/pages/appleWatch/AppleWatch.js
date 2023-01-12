@@ -1,17 +1,17 @@
 import React from 'react';
 import styles from "./AppleWatch.module.css";
 import watchCard from "../../data/watchCard";
-import WatchCard from "../../components/watch_card/WatchCard";
+import ProductCard from "../../components/productCard/ProductCard";
 
 const AppleWatch = () => {
     let watchItems;
     if (watchCard.length > 0){
         watchItems = watchCard.map((item,index)=>{
             return(
-                <WatchCard
+                <ProductCard
                     key={index}
                     img_url={item.watch_img}
-                    name={item.name_watch}
+                    name_card={item.name_watch}
                     pryce={item.pryce}
                     pryce_usd={item.pryce_usd}
                 />

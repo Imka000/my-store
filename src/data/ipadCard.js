@@ -1,5 +1,3 @@
-import React from 'react';
-
 const ipadCard = [
     {
         img_ipad:'https://istore.kg/media/products/ipad-pro-13-select-wifi-spacegray-202210.webp',

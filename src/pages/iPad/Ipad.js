@@ -1,17 +1,17 @@
 import React from 'react';
 import styles from "./Ipad.module.css";
 import ipadCard from "../../data/ipadCard";
-import IpadCard from "../../components/ipad_card/IpadCard";
+import ProductCard from "../../components/productCard/ProductCard";
 
 const Ipad = () => {
     let ipadItems;
     if (ipadCard.length > 0){
         ipadItems = ipadCard.map((item, index)=>{
             return(
-                <IpadCard
+                <ProductCard
                     key={index}
-                    img_ipad={item.img_ipad}
-                    name_ipad={item.name_ipad}
+                    img_url={item.img_ipad}
+                    name_card={item.name_ipad}
                     pryce={item.pryce}
                     pryce_usd={item.pryce_usd}
                 />

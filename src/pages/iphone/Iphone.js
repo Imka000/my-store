@@ -1,16 +1,16 @@
 import React from 'react';
 import styles from './Iphone.module.css'
 import iphoneCard from "../../data/iphoneCard";
-import IphoneCard from "../../components/iphone_card/IphoneCard";
+import ProductCard from "../../components/productCard/ProductCard";
 
 const Iphone = () => {
     let iphoneItems;
     if (iphoneCard.length > 0){
         iphoneItems = iphoneCard.map((item,index)=>{
             return(
-                <IphoneCard
+                <ProductCard
                     key={index}
-                    img_iphone = {item.img_iphone}
+                    img_url = {item.img_iphone}
                     name_card = {item.name_card}
                     pryce = {item.pryce}
                     pryce_usd = {item.pryce_usd}

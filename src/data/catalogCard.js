@@ -1,5 +1,3 @@
-import React from "react";
-
 const catalogCard = [
     {
         img:'https://istore.kg/media/category/iphone-14-pro-finish-unselect-gallery-1-202209_GEO_US.webp',

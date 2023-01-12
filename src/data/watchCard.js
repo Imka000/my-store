@@ -1,5 +1,3 @@
-import React from "react";
-
 const watchCard = [
     {
         watch_img:'https://istore.kg/media/products/MQEE3_VW_34FRwatch-49-titanium-ultra_VW_34FR_WF_COwatch-face-49-ocean-ultra_VW_vKKcX3M.webp',

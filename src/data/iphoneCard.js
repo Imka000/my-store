@@ -1,5 +1,3 @@
-import React from "react";
-
 const iphoneCard = [
     {
         img_iphone:'https://istore.kg/media/products/iphone-14-pro-finish-select-202209-6-7inch-spaceblack_Qjv0Azl.webp',

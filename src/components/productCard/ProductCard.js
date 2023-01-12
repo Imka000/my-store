@@ -1,12 +1,12 @@
 import React from 'react';
-import styles from "./WatchCard.module.css";
+import styles from "./ProductCard.module.css";
 
-const WatchCard = (props) => {
+const ProductCard = (props) => {
     return (
-        <div className={styles.watchCard}>
+        <div className={styles.productCard}>
             <img src={props.img_url}/>
-            <div className={styles.watchName}>
-                <h5>{props.name}</h5>
+            <div className={styles.cardName}>
+                <h5>{props.name_card}</h5>
                 <p>{props.pryce}</p>
                 <p>{props.pryce_usd}</p>
                 <button className={styles.btn}>Выбрать</button>
@@ -15,4 +15,4 @@ const WatchCard = (props) => {
     );
 };
 
-export default WatchCard;
+export default ProductCard;
