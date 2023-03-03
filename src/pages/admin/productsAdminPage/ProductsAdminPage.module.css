@@ -1,0 +1,12 @@
+.tdImg {
+    width: 100px;
+    height: 100px;
+}
+
+td button{
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: #a5a4a4;
+    color: black;
+    border: 0;
+}

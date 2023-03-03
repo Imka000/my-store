@@ -6,6 +6,19 @@
     justify-content: space-between;
 }
 
+/*.sale{*/
+/*    border: 1px solid lawngreen;*/
+/*    background-color: lawngreen;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    height: 20px;*/
+/*    width: 80px;*/
+/*    align-self: center;*/
+/*    border-radius: 8px;*/
+/*    margin-bottom: 1px;*/
+/*}*/
+
 .cardName{
     display: flex;
     justify-content: space-between;
@@ -20,6 +33,10 @@
 .productCard p{
     opacity: 80%;
 }
+
+/*.priceSale{*/
+/*    text-decoration: line-through;*/
+/*}*/
 
 .btn {
     border: 1px solid #0071e3;

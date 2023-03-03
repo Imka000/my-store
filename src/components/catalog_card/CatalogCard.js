@@ -1,5 +1,7 @@
 import React from 'react';
 import styles from "./CatalogCard.module.css";
+import {Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 const CatalogCard = (props) => {
     return (
@@ -7,7 +9,7 @@ const CatalogCard = (props) => {
             <img src={props.img_url}/>
             <div className={styles.card_name}>
                 <p>{props.name}</p>
-                <a href={props.link}>Перейти ></a>
+                <Link to={props.link}>Перейти ></Link>
             </div>
         </div>
     );

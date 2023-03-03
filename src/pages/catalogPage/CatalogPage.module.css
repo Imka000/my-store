@@ -1,0 +1,14 @@
+.catalog_container{
+    display: flex;
+    gap: 25px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.catalog_container2{
+    display: flex;
+    margin-top: 25px;
+    gap: 25px;
+    max-width: 420px;
+    margin-left: 115px;
+}
